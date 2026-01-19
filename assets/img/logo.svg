@@ -1,0 +1,11 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neiro logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#6cf0c2" offset="0%"/>
+      <stop stop-color="#5bc0f8" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="28" fill="#05060a"/>
+  <rect x="18" y="18" width="124" height="124" rx="26" fill="#0d0f16" stroke="url(#g1)" stroke-width="3"/>
+  <path d="M45 115V45h16l38 46h1V45h15v70h-16l-38-46h-1v46z" fill="url(#g1)"/>
+</svg>
