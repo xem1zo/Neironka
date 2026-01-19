@@ -3,8 +3,8 @@
 Статический многостраничный сайт (HTML/CSS/JS) для демонстрации услуг сборки, апгрейда и диагностики компьютеров.
 
 ## Демо и репозиторий
-- Репозиторий: https://github.com/xem1zo/Neiro
-- GitHub Pages (после включения Pages на ветке `main`): https://xem1zo.github.io/Neiro/
+- Репозиторий: https://github.com/xem1zo/Neironka
+- GitHub Pages (после включения Pages на ветке `main`): https://xem1zo.github.io/Neironka/
 
 ## Стек
 - HTML5, CSS3 (Flex/Grid, адаптив), JS (минимальный интерактив)
@@ -53,4 +53,5 @@ flowchart TD
 
 ## Авторы
 Команда учебного проекта по верстке и фронтенду:
+
 --
