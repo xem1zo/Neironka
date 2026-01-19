@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Neiro PC Lab</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="Neiro">
+        Neiro PC Lab
+      </a>
+      <div class="menu">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="pricing.html">Тарифы</a>
+        <a href="cases.html">Кейсы</a>
+        <a class="active" href="contacts.html">Контакты</a>
+      </div>
+      <div class="actions">
+        <a class="cta" href="contacts.html">Оставить заявку</a>
+        <button class="burger" aria-label="Открыть меню"><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <span class="eyebrow">Контакты</span>
+      <h1>Оставьте заявку — вернёмся в течение рабочего дня</h1>
+      <p class="lead">Опишите задачу: игры, монтаж, ML или офис. Подготовим смету и сроки.</p>
+      <div class="contact">
+        <div class="card">
+          <form>
+            <div>
+              <label for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Алексей" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+            <div>
+              <label for="budget">Бюджет</label>
+              <select id="budget" name="budget" required>
+                <option value="" disabled selected>Выберите диапазон</option>
+                <option>до 80 000 ₽</option>
+                <option>80 000–150 000 ₽</option>
+                <option>150 000–250 000 ₽</option>
+                <option>250 000 ₽ и выше</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Комментарий</label>
+              <textarea id="message" name="message" placeholder="Игровой ПК 1440p, важно тихо" required></textarea>
+            </div>
+            <button class="cta btn" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Как связаться</h3>
+          <ul class="list">
+            <li>Email: hello@neiro.pc (пример)</li>
+            <li>Telegram: @neiro_pc_lab</li>
+            <li>Teams: по приглашению</li>
+          </ul>
+          <div class="map" aria-label="Карта офиса">
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=37.56%2C55.74%2C37.64%2C55.79&layer=mapnik"
+              style="border:0; width:100%; height:100%;" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>Neiro PC Lab — на связи</div>
+      <div class="social">
+        <span class="badge">Telegram</span>
+        <span class="badge">Teams</span>
+        <span class="badge">Email</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
